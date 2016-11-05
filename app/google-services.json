@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "654444186550",
+    "firebase_url": "https://admob-app-id-5841787192.firebaseio.com",
+    "project_id": "admob-app-id-5841787192",
+    "storage_bucket": "admob-app-id-5841787192.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:654444186550:android:b60e1f539aa5aa26",
+        "android_client_info": {
+          "package_name": "com.may6soft.notepad"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "654444186550-3q9uu3sash5c11qaund00rful6ukl9lh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBnRIEUwrtljli6q6ML7kw9eZeWBMd-EsQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,100 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/seagreen</item>
+        <item name="colorPrimaryDark">@color/midnightblue</item>
+        <item name="colorAccent">@color/black</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="ActionBar_titleStyle">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/midnightblue</item>
+    </style>
+
+    <!-- My theme. -->
+    <style name="vertical_seperater_line">
+        <item name="android:layout_width">0.5dp</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:background">#d4d4d4</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="vertical_seperater_line_invisible">
+        <item name="android:layout_width">10dp</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="horizontal_seperater_line">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">0.5dp</item>
+        <item name="android:background">@color/seagreen</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="StyleSearchBox">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/bg_edit_text_box</item>
+        <item name="android:drawablePadding">5dp</item>
+        <item name="android:drawableStart">@drawable/icon_search</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textColorHint">@color/gray_white</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:hint">Search</item>
+    </style>
+
+    <style name="StylePasswordBox">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/bg_edit_text_box</item>
+        <item name="android:drawablePadding">5dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textColorHint">@color/gray_white</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:inputType">textPassword</item>
+        <item name="android:hint">Password</item>
+    </style>
+
+    <style name="StyleTitle" parent="Widget.AppCompat.EditText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:background">@drawable/textfield_search_selected_holo_dark</item>
+        <item name="android:maxLength">15</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textColorHint">@color/gray_white</item>
+        <item name="android:hint">Input Title</item>
+    </style>
+
+    <style name="StyleTextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="MyTheme.Button" parent="Widget.AppCompat.Button">
+        <item name="colorButtonNormal">@color/mediumseagreen</item>
+    </style>
+
+
+    <style name="MyTheme.AlertDialog" parent="@android:style/Theme.Holo.Light.Dialog">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+</resources>

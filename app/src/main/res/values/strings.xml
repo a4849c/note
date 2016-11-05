@@ -1,0 +1,38 @@
+<resources>
+    <!-- -
+        This is an ad unit ID for a banner test ad. Replace with your own banner ad unit id.
+        For more information, see https://support.google.com/admob/answer/3052638
+    <!- -->
+    <string name="banner_ad_unit_id">ca-app-pub-8189105810278828/7318520394</string>
+
+    <!-- layout.row_edit_edit_img_img_img/ID -->
+    <string name="layout_row_txt_edit_btn_ID_row_name">row_name</string>
+    <string name="layout_row_txt_edit_btn_ID_value_text">value_text</string>
+    <!-- Menu Used -->
+    <string name="action_add">Add</string>
+    <string name="action_edit">Edit</string>
+    <string name="action_search">Search</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_about">About</string>
+    <string name="action_confirm">Confirm</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_delete">Delete</string>
+
+
+    <string name="app_name">Notepad</string>
+    <string name="s_view_btn">Button</string>
+    <string name="s_passwd_btn">Show Password</string>
+    <string name="add_new_line_btn">Add a new line</string>
+
+    <string name="password_tab">Password Page: %1$d </string>
+    <string name="payment_tab">Payment Page: %1$d </string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="new_item_title">Title: </string>
+    <string name="new_item_value">Value</string>
+    <string name="title_activity_tab">TabActivity</string>
+    <string name="title_activity_passowrd">PassowrdActivity</string>
+    <string name="title_activity_password_tab">PasswordTabActivity</string>
+    <string name="title_activity_teststart">teststart</string>
+    <string name="title_activity_edit_password">EditPasswordActivity</string>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bitmap xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/icon_trash_bmp"
+    android:src="@drawable/icon_delete"
+    android:tileMode="disabled"
+    android:gravity="bottom" >
+</bitmap>
